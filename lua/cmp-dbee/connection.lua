@@ -141,6 +141,8 @@ function Connection:get_flatten_structure()
       end
     end, iterable)
 
+    vim.print(vim.inspect(out))
+
     return out
   end
 
